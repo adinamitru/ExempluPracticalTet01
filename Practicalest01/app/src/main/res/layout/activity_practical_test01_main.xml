@@ -23,7 +23,9 @@
         android:enabled="false"
         android:gravity="center"
         android:inputType="number"
-        android:saveEnabled="false" />
+        android:saveEnabled="false"
+        android:text="0"
+        tools:text="0" />
 
     <EditText
         android:id="@+id/right_edit_text"
@@ -35,7 +37,8 @@
         android:enabled="false"
         android:gravity="center"
         android:inputType="number"
-        android:saveEnabled="false" />
+        android:saveEnabled="false"
+        android:text="0" />
 
     <Button
         android:id="@+id/left_button"
